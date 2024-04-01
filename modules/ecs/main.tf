@@ -245,8 +245,8 @@ resource "aws_cognito_identity_provider" "google" {
 
   provider_details = {
     authorize_scopes = "email"
-    client_id        = "231487993575-69pkllrdsmdjap2f0rg9086a13oph418.apps.googleusercontent.com"
-    client_secret    = "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"
+    client_id        = #"231487993575-69pkllrdsmdjap2f0rg9086a13oph418.apps.googleusercontent.com"
+    client_secret    = #"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"
   }
 
   attribute_mapping = {
