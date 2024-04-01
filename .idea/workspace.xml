@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1956480-6bca-4dcc-a6b7-a93beb592824" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.terraform.lock.hcl" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2R9eNHiHQsLSxJC9QKWgyfSzsFG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "test/sergiu",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Mercedes/git/sync-project-demo/modules",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Mercedes\git\sync-project-demo\modules" />
+      <recent name="C:\Mercedes\git\sync-project-demo" />
+      <recent name="D:\Terraform\Intakt\modules\cloud_watch" />
+      <recent name="D:\Terraform\Intakt\modules\rds" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1956480-6bca-4dcc-a6b7-a93beb592824" name="Changes" comment="" />
+      <created>1686666682962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686666682962</updated>
+      <workItem from="1686666684289" duration="620000" />
+      <workItem from="1686668707522" duration="2497000" />
+      <workItem from="1686675071370" duration="7895000" />
+      <workItem from="1686719189561" duration="4300000" />
+      <workItem from="1686723785771" duration="37312000" />
+      <workItem from="1686806589002" duration="27912000" />
+      <workItem from="1686842807683" duration="15548000" />
+      <workItem from="1686894340173" duration="23612000" />
+      <workItem from="1687153187677" duration="25723000" />
+      <workItem from="1687239490104" duration="13774000" />
+      <workItem from="1687324684144" duration="4309000" />
+      <workItem from="1696859440656" duration="629000" />
+      <workItem from="1709549603439" duration="1583000" />
+      <workItem from="1709553325749" duration="2298000" />
+      <workItem from="1711884643423" duration="6495000" />
+      <workItem from="1711951465678" duration="5536000" />
+      <workItem from="1711965219602" duration="1052000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

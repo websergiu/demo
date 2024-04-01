@@ -1,0 +1,63 @@
+aws:
+  region: us-east-1
+vpc:
+  name: nufarul-oradea
+  cidr: 10.0.0.0/16
+  nat: true
+  vpn: false
+  azs: [ "us-east-1a", "us-east-1b", "us-east-1c" ]
+  private_subnets: [ "10.0.1.0/24", "10.0.2.0/24" ]
+  public_subnets: [ "10.0.101.0/24", "10.0.102.0/24" ]
+ec2:
+  name: nufarul-instance
+  ami: ami-022e1a32d3f742bd8
+  instance_type: t2.xlarge #t2.small
+  public_ip: true
+  monitor: true
+  root_device_name: /dev/xvda
+  root_volume_type: gp2
+  root_volume_size: 10
+  root_delete_on_termination: true
+ecs:
+  name: terraform-ecs-nufarul-oradea
+  cluster_name: terraform-cluster-nufarul-oradea
+  capacity_providers: ["FARGATE"]
+  base: 0
+  weight: 50
+  capacity_provider: FARGATE
+  assign_public_ip: true
+  family: service
+  network_mode: awsvpc
+  requires_compatibilities: ["FARGATE"]
+  cpu: 512
+  memory: 1024
+  username: sergiu
+  password: Fortech123
+  db_name: mydb_nufarul
+ecr:
+  name: ecrnew-nufarul-oradea
+  image_tag_mutability: MUTABLE
+  scan_on_push: true
+rds:
+  allocated_storage: 10
+  db_name: mydb_nufarul
+  engine: mysql
+  engine_version: 5.7
+  instance_class: db.t3.micro
+  username: sergiu
+  password: Fortech123
+  parameter_group_name: default.mysql5.7
+  skip_final_snapshot: true
+  db_password: Fortech12345
+  name_prefix: rds
+cw:
+  dashboard_name: my-dashboard-nufarul
+ssm:
+  s3_bucket_name: sergiuoradeanew
+  cloudwatch_log_group_name: /ssm/session-logs
+  cloudwatch_encryption_enabled: false
+  s3_encryption_enabled: false
+
+
+
+
