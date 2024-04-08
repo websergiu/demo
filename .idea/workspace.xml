@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1956480-6bca-4dcc-a6b7-a93beb592824" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/build.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/ecs/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ecs/main.tf" afterDir="false" />
     </list>
@@ -81,7 +83,7 @@
       <workItem from="1709553325749" duration="2298000" />
       <workItem from="1711884643423" duration="6495000" />
       <workItem from="1711951465678" duration="5536000" />
-      <workItem from="1711965219602" duration="2335000" />
+      <workItem from="1711965219602" duration="6665000" />
     </task>
     <servers />
   </component>
