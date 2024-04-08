@@ -1,0 +1,39 @@
+name: TFSec Scan
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  tfsec:
+    name: Run TFSec
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v1
+        with:
+          terraform_version: 1.5.7 # Specify the Terraform version you're using
+
+      - name: Install TFSec
+        run: |
+          curl -s https://api.github.com/repos/aquasecurity/tfsec/releases/latest \
+          | grep browser_download_url \
+          | grep 'tfsec-linux-amd64' \
+          | cut -d '"' -f 4 \
+          | wget -qi -
+
+          mv tfsec-linux-amd64 tfsec
+          chmod +x tfsec
+          sudo mv tfsec /usr/local/bin/
+
+      - name: Run TFSec
+        run: tfsec .
+
